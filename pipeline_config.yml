@@ -6,7 +6,7 @@ general:
 steps:
   executeMaven:
 #    dockerImage: 'maven:3.5.0-jdk-8'
-    globalSettingsFile: ''
+    globalSettingsFile: 'settings.xml'
     projectSettingsFile : ''
 
 #Stage Specific Configurations
